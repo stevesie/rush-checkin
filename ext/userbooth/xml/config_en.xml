@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+	<snap_sound>/~Steve/ext/userbooth/assets/camera_sound.mp3</snap_sound>
+	<save_sound>/~Steve/ext/userbooth/assets/save_sound.mp3</save_sound>
+	<live_webcam_text>Live Webcam</live_webcam_text>
+	<snapshot_text>Snapshot</snapshot_text>
+	<snap_screen_text><![CDATA[Click the <font color="#ff9900" >SNAP IT</font> button to take a snapshot.]]></snap_screen_text>
+	<snap_btn txt_1="SNAP IT" txt_2="SNAP NEW" />
+	<save_btn txt_1="SAVE IT" txt_2="SAVED" />
+	<saving_image_message><![CDATA[Saving image<br/>Please wait!]]></saving_image_message>
+	<thank_you_message><![CDATA[You snapshot was saved<br/><font color="#ff9900" >Thank you!</font>]]></thank_you_message>
+	<info_message><![CDATA[<b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</b>]]></info_message>
+	<no_webcam><![CDATA[You have no webcam. You need a webcam in order to use this application.]]></no_webcam>
+	<allow_webcam><![CDATA[In order to use this application you have to allow your webcam to be used. Please refresh the page and click allow.]]></allow_webcam>
+	<bg_color>333333</bg_color>
+	<live_webcam_bg_color>ffffff</live_webcam_bg_color>
+	<snap_bg_color>ffffff</snap_bg_color>
+	<watermark position="BOTTOM/RIGHT" >/~Steve/ext/userbooth/assets/watermark.png</watermark>
+	<timer>5</timer>
+</config>

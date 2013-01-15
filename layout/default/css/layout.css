@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	border-bottom-color: #2d2d2e;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+html, body {
+	font-family: Arial;
+	font: 1em/1em;
+	margin: 0;
+	text-align: center;
+        background-color: #f3fae3;
+}
+#wrap {
+	width: 100%;
+	height: 400px;
+	padding: 0;
+}
+#header {
+	background-image: url(img/header.png);
+	height: 207px;
+}
+#container {
+	width: 950px;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+#content {
+	clear: both;
+	
+	text-align: left;
+	margin: 0 auto;
+	background-image: url(img/faux.png);
+	background-repeat: repeat-y;
+}
+#footer {
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-top: 0;
+	position: relative;
+	top: -10px;
+	text-align: left;
+	width: 950px;
+	height: 70px;
+	background-image: url(img/footer.png);
+}
+p {
+	font-size: 0.95em;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#nav {
+	padding-left:20px;
+	padding-right: 20px;
+	padding-bottom:0px;]
+	margin-bottom:0px;
+}
+#nav div {
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 1.05em;
+	float: left;
+	width: 101px;
+	position: relative;
+	top: 173px;
+}
+#nav div a{
+	color: white;
+}
+#content {
+	padding-left: 50px;
+	padding-right: 50px;
+    padding-top:0px;
+}
+.no_margin {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.silk_icon {
+	border: 0;
+	position: relative;
+	top:2px;
+}
+a {
+	color: #38507c;
+	text-decoration: none;
+}
+.link_selected {
+	
+	font-variant: small-caps;
+	
+	color: #e5f1a4;
+	
+	font-weight: bold;
+	
+}
+#nav a:hover {
+	color: #fff7ad;
+}
+.link_selected div a {
+	text-decoration: underline;
+}
+.center {
+	text-align: center;
+}
+#footer p {
+	top: 25px;
+	position: relative;
+	text-align: center;
+	font-size: 0.9em;
+}
+#footer a {
+	top: 5px;
+	position: relative;
+}
+
+.spinner {
+	display: none;
+}
+
+
+.input_text {
+	
+	width: 300px;
+	
+	padding: 2px;
+	
+	border-color: black;
+	
+	border-style: solid;
+	
+	border-width: 1px;
+	
+	font-size: 14px;
+	
+	color: #5d2223;
+	
+	background-color: #ed7b7b;
+	
+}
+
+.input_button {
+	padding-left: 10px;
+	padding-bottom: 4px;
+	padding-right: 10px;
+	padding-top: 4px;
+	font-size: 16px;
+	color: white;
+	background-color: #6a001e;
+	border-color: #383838;
+	border-style: solid;
+	border-width: 1px;
+	cursor: pointer;
+}
+
+#form_errors {
+	padding-top: 25px;
+}
+
+a img {
+	border: none;
+}
