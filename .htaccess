@@ -1,0 +1,4 @@
+Options FollowSymLinks
+RewriteEngine on
+
+RewriteRule !(\.(js|ico|png|css|gif|php|htm|html|jpg|zip|pdf|json|owl|jar|inc|rdf|txt|mov|xml|swf)$) index.php

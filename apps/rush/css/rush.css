@@ -1,0 +1,168 @@
+#confirm {
+
+	padding: 5px;
+
+	border-width: 1px;
+
+	background-color: #afffa3;
+
+	border-color: #107c24;
+
+	border-style: dashed;
+
+}
+
+#new_reg_form p {
+	margin-top: 0px;
+	padding-top: 10px;
+}
+
+#rush_pic {
+	margin-right: 10px;
+}
+
+#rush_name {
+	margin-bottom: 20px;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	font-size: 2em;
+	position: relative;
+	top:7px;
+	padding-bottom: 10px;
+	
+}
+
+#info {
+	float: left;
+	width: 635px;
+}
+
+#status {
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+.Bid {
+	padding: 4px;
+	background-color: #0c6f16;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: #f8fff7;
+}
+
+
+.rush_div {
+	text-align: center;
+	width: 210px;
+	float: left;
+	height:230px;
+}
+
+.Abstain {
+	padding: 4px;
+	background-color: #122caa;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: white;
+}
+
+.Ding {
+	padding: 4px;
+	background-color: #6f0c10;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: white;
+}
+
+.label {
+	clear: both;
+	float: left;
+	list-style-position: inside;
+	color: #7c7c7c;
+	font-size: 0.8em;
+	text-align: right;
+	margin-bottom: 5px;
+	width: 110px;
+}
+
+.val {
+	margin-left: 5px;
+	float: left;
+	font-weight: bold;
+	font-size: 0.8em;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.comments_num {
+	font-size:.8em;
+	z-index: 1000000;
+}
+
+#comm {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	font-size: 2em;
+	position: relative;
+	top:7px;
+	padding-bottom: 10px;
+	
+}
+
+#comm span {
+	font-size: 0.5em;
+}
+
+#add_comment textarea {
+	font-size: 0.8em;
+	font-family: Arial;
+	width: 500px;
+	height: 200px;
+}
+
+.comment_author {
+	font-weight: bold;
+}
+
+.comment_text {
+	font-size: 0.8em;
+}
+
+.comment {
+	margin-top: 5px;
+	border-bottom-color: #818181;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-bottom: 5px;
+}
+
+h3.reg {
+	
+	border-bottom-color: #1d1d1d;
+	
+	border-bottom-style: solid;
+	
+	border-bottom-width: 1px;
+	
+	padding-bottom: 10px;
+	
+	font-size: 1.6em;
+	
+}
+
+#reg_div input {
+	font-size: 1.1em;
+}
+
+table {
+	font-size: 0.8em;
+}
+
+tr.highlight:hover {
+	background-color: #c0ecff;
+}
+

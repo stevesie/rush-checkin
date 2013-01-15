@@ -1,0 +1,57 @@
+
+#content div{
+
+	text-align: left;
+}
+
+#content div {
+	line-height: 1.2em;
+}
+
+.slideshow {
+	float: left;
+	margin-right: 15px;
+	-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid #000000;
+	position: relative;
+	top:-2px;
+}
+
+.banner {
+	font-weight: bold;
+	text-align: center;
+	font-size: 2.3em;
+}
+
+h3 {
+	margin-bottom: 10px;
+	border-bottom-color: #7e7e7e;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-bottom: 5px;
+	
+}
+
+
+
+li {
+	position: relative;
+	left: 25px;
+	font-size: .9em;
+}
+
+#google_map {
+	float: right;
+	-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid #000000;
+}
+
+h3 {
+	margin-top: 15px;
+}
+
+p {
+	margin-bottom: 0px;
+}
