@@ -9,7 +9,7 @@ $snaptime = mktime();
 $now = date("F j, Y, g:i a");  
 $ip = $_SERVER["REMOTE_ADDR"];
 
-$save_location = '/opt/dkecornell';
+$save_location = '/opt/rush-checkin';
 
 if(isset($GLOBALS["HTTP_RAW_POST_DATA"])){
 	$jpg = $GLOBALS["HTTP_RAW_POST_DATA"];

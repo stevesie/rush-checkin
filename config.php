@@ -23,7 +23,7 @@
 			exit;
 		case "www.dkecornell.com":
 			$prefs = array(
-				"FILE_ROOT"   => "/opt/dkecornell/",
+				"FILE_ROOT"   => "/opt/rush-checkin/",
 				"URL_ROOT"    => "/",
 				"MEDIA_ROOT"  => "/",
 				"SERVER_ROOT" => "http://www.dkecornell.com/",
