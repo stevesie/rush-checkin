@@ -24,7 +24,7 @@
 			$this->top_layout();
 			$this->add_css();
 			
-			$this->t('<br/><p style="text-align:center;">'.$this->img('dke2011.png').'</p>');
+			//$this->t('<br/><p style="text-align:center;">'.$this->img('dke2011.png').'</p>');
 			
 			$rushes = $this->c->model()->rush_registers();
 			
@@ -52,7 +52,7 @@
 				
 				//$this->t('<a href="'.Core::get_pref('URL_ROOT').'/rush/view/'.$rush->id().'">'.'</a>');
 				
-				$chckin = $this->a(silk_icon('accept').' Check In','rush/checkin/'.$rush->id().'/friday','class="boxy"');
+				$chckin = $this->a(silk_icon('accept').' Check In','rush/checkin/'.$rush->id().'/'.strtolower(date('l')),'class="boxy"');
 
 				
 				
@@ -292,14 +292,14 @@
 					
 					//$this->t('<a href="'.Core::get_pref('URL_ROOT').'/rush/view/'.$rush->id().'">'.'</a>');
 					
-					$chckin = $this->a(silk_icon('accept').' Check In','rush/checkin/'.$rush->id().'/friday','class="boxy"');
+					$chckin = $this->a(silk_icon('accept').' Check In','rush/checkin/'.$rush->id().'/'.strtolower(date('l')),'class="boxy"');
 					
 					
-					$monday = $rush->get('monday') ? silk_icon('tick') : '';
-					$tuesday = $rush->get('tuesday') ? silk_icon('tick') : '';
-					$wednesday = $rush->get('wednesday') ? silk_icon('tick') : '';
-					$thursday = $rush->get('thursday') ? silk_icon('tick') : '';
-					$friday = $rush->get('friday') ? silk_icon('tick') : $chckin;
+					$monday = $rush->get('monday') ? silk_icon('tick') : (date('l') === 'Monday' ? $chkin : '');
+					$tuesday = $rush->get('tuesday') ? silk_icon('tick') : (date('l') === 'Tuesday' ? $chkin : '');
+					$wednesday = $rush->get('wednesday') ? silk_icon('tick') : (date('l') === 'Wednesday' ? $chkin : '');
+					$thursday = $rush->get('thursday') ? silk_icon('tick') : (date('l') === 'Thursday' ? $chkin : '');
+					$friday = $rush->get('friday') ? silk_icon('tick') : (date('l') === 'Friday' ? $chkin : '');
 					
 					
 					

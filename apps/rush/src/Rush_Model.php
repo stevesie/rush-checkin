@@ -16,7 +16,7 @@
 			
 			$collection = new Core_Collection('rush_register','Rush_Register_Object');
 			$collection->add_order('first_name');
-			$collection->add_where('id >= 128');
+			//$collection->add_where('id >= 128');
 			$collection->build();
 			return $collection;
 			
@@ -61,7 +61,7 @@
 				$object->set('pic_code', $pic_code);
 			
 			///DAY OF THE WEEK!!!!
-			$object->set('friday',1);
+			$object->set(strtolower(date('l')),1);
 			
 			if($this->action->is_valid()) {
 			

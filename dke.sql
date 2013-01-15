@@ -230,6 +230,7 @@ CREATE TABLE IF NOT EXISTS `rush_register` (
   `wednesday` tinyint(1) unsigned NOT NULL,
   `thursday` tinyint(1) unsigned NOT NULL,
   `friday` tinyint(1) unsigned NOT NULL,
+  `pic_code` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=126 ;
 
