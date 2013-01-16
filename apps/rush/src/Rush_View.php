@@ -295,11 +295,11 @@
 					$chckin = $this->a(silk_icon('accept').' Check In','rush/checkin/'.$rush->id().'/'.strtolower(date('l')),'class="boxy"');
 					
 					
-					$monday = $rush->get('monday') ? silk_icon('tick') : (date('l') === 'Monday' ? $chkin : '');
-					$tuesday = $rush->get('tuesday') ? silk_icon('tick') : (date('l') === 'Tuesday' ? $chkin : '');
-					$wednesday = $rush->get('wednesday') ? silk_icon('tick') : (date('l') === 'Wednesday' ? $chkin : '');
-					$thursday = $rush->get('thursday') ? silk_icon('tick') : (date('l') === 'Thursday' ? $chkin : '');
-					$friday = $rush->get('friday') ? silk_icon('tick') : (date('l') === 'Friday' ? $chkin : '');
+					$monday = $rush->get('monday') ? silk_icon('tick') : (date('l') === 'Monday' ? $chckin : '');
+					$tuesday = $rush->get('tuesday') ? silk_icon('tick') : (date('l') === 'Tuesday' ? $chckin : '');
+					$wednesday = $rush->get('wednesday') ? silk_icon('tick') : (date('l') === 'Wednesday' ? $chckin : '');
+					$thursday = $rush->get('thursday') ? silk_icon('tick') : (date('l') === 'Thursday' ? $chckin : '');
+					$friday = $rush->get('friday') ? silk_icon('tick') : (date('l') === 'Friday' ? $chckin : '');
 					
 					
 					
